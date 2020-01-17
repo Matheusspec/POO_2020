@@ -1,4 +1,4 @@
-package aula02.universidade;
+package Universidade;
 
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -10,7 +10,7 @@ public class TestaCurso {
  
       System.out.println("Digite o nome do Curso");
       c1.nome = sc.nextLine();
-      System.out.println("Digite a área  do Curso");
+      System.out.println("Digite a àrea  do Curso");
       c1.area = sc.nextLine();
       System.out.println("Digite a duração do Curso");
       c1.duracao = Integer.parseInt(sc.nextLine());
@@ -23,7 +23,7 @@ public class TestaCurso {
       
       System.out.println("Digite o nome do Curso");
       c2.nome = sc.nextLine();
-      System.out.println("Digite a área  do Curso");
+      System.out.println("Digite a Área  do Curso");
       c2.area = sc.nextLine();
       System.out.println("Digite a duração do Curso");
       c2.duracao = Integer.parseInt(sc.nextLine());
@@ -36,12 +36,12 @@ public class TestaCurso {
         /*
         //Curso 1
         Curso c1 = new Curso();
-        c1.nome = "Ciência da Computação";
+        c1.nome = "CiÃªncia da ComputaÃ§Ã£o";
         c1.duracao = 3600;
         c1.area = "Exatas";
-        c1.tipo = "Computação";
+        c1.tipo = "ComputaÃ§Ã£o";
         System.out.println("Nome do curso c1 : " + c1.nome);
-        System.out.println("Duração do curso c1 : " + c1.duracao);
+        System.out.println("DuraÃ§Ã£o do curso c1 : " + c1.duracao);
         System.out.println("Area do curso c1 : " + c1.area);
         System.out.println("Tipo do curso c1 : " + c1.tipo);
 
@@ -51,10 +51,10 @@ public class TestaCurso {
         Curso c2 = new Curso("Engenharia de Software");
         System.out.println("Nome do curso c2 : " + c2.nome);
 
-        curso c3 = new Curso("Sistmeas de Informção", "Ciências Exatas","Computação",3500);
+        curso c3 = new Curso("Sistmeas de InformÃ§Ã£o", "CiÃªncias Exatas","ComputaÃ§Ã£o",3500);
         
         System.out.println("Nome de curso c3 : " + c3.nome);
-        System.out.println("Área do curso")
+        System.out.println("Ã�rea do curso")
         */
     }
 }

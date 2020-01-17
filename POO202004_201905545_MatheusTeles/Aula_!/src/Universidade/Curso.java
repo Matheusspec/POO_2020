@@ -1,5 +1,4 @@
-
-package aula02.universidade;
+package Universidade;
 
 class Curso {
     String nome;
