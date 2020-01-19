@@ -1,0 +1,2 @@
+module ASs_exercises {
+}
