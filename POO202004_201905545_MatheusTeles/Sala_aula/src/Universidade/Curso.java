@@ -9,7 +9,7 @@ class Curso {
   public Curso(){}    
   
   public Curso(String nome){
-        this.nome = nome;
+        this.nome = nome; 
     }
   public Curso(String nome, String area, String tipo, int duracao){
         this.nome = nome;

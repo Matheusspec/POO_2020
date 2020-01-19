@@ -19,7 +19,7 @@ public class TestaCurso {
       System.out.println("Curso 1 : " + c1.nome + " -  " + c1.area + " - " + c1.tipo + " - " + c1.duracao + " horas");
         
       
-      Curso c2 = new Curso();
+      Curso c2 = new Curso(); 
       
       System.out.println("Digite o nome do Curso");
       c2.nome = sc.nextLine();
