@@ -6,11 +6,7 @@ public class NumerosInter {
 		Scanner sc = new Scanner(System.in);
 		
 		Numeros	Num = new Numeros();
-		int i;
-		int cont=0;
-		int soma=0;
-		int pares=0;
-		int imp=0;
+		int i,cont=0,soma=0,pares=0,imp=0;
 		double media;
 		
 		System.out.println("Insira o primeiro numero :");
