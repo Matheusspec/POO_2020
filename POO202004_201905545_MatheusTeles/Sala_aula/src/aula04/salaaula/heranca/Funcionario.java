@@ -1,12 +1,12 @@
 package aula04.salaaula.heranca;
 
-public class Funcionario {
+public class Funcionario extends PessoaFisica {
 	private int matricula;
 	private double salario;
 	private String cargo;
 	
 	public Funcionario(String nome,String end, String tel, 
-			 String cpf, String est, String sexo,int matricula, double salario, String cargo) {
+			 String cpf, String est, String sexo, int matricula, double salario, String cargo) {
 				 super(nome,end,tel,cpf,est,sexo);
 				 this.matricula = matricula;
 				 this.salario = salario;
@@ -40,9 +40,9 @@ public class Funcionario {
 	public String toString() {
 		StringBuffer sb = new StringBuffer();
 		sb.append(super.toString());
-		sb.append("\nCpf da Pessoa Física: " + this.getMatricula());
-		sb.append("\nEstado Civil da Pessoa Física: " + this.getSalario());
-		sb.append("\nSexo da Pe da Pessoa Física: " + this.getCargo());
+		sb.append("\nMatricula do funcionário: " + this.getMatricula());
+		sb.append("\nSalário do funcionário : " + this.getSalario());
+		sb.append("\nCargo do funcionário : " + this.getCargo());
 		
 		return sb.toString();
 	}
