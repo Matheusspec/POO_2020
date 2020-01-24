@@ -20,12 +20,16 @@ public class Agenda {
 		}
 		public void imprimeContato(int posicao) {
 			Contato novoContato = new Contato();
+			novoContato = null;
 			for(Contato contato : ListaContatos) {
 				if(contato.getPosicao() == posicao) {
 					novoContato = contato;
 				}
 			}
-			System.out.println(novoContato);
+			if(novoContato != null)
+				System.out.println(novoContato);
+			else
+				System.out.println("\nEsse contato já foi excluido!");
 		}
 		
 		public int buscaContato(String nome) {

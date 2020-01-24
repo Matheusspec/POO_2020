@@ -10,9 +10,9 @@ public class TestaAgenda {
 		
 		Agenda c = new Agenda();
 		
-		Contato[] cont = new Contato[10];
+		Contato[] cont = new Contato[11];
 		
-		for(i = 1; i <= 2; i++) {
+		for(i = 1; i < 11; i++) {
 			cont[i] = new Contato();
 			System.out.println("Nome do contato " + (i) + ":");
 			cont[i].setNome(sc.nextLine());
@@ -43,8 +43,8 @@ public class TestaAgenda {
 			
 			case 2: System.out.println("Qual a posição do contato que deseja consultar?");
 			int posicao = sc.nextInt();
-			if(posicao >= i || posicao < 0)
-				System.out.println("Não existe essa posição");
+			if(posicao >=i || posicao <= 0)
+				System.out.println("\nNão existe essa posição");
 			else
 				c.imprimeContato(cont[posicao].getPosicao());
 			break;
@@ -53,9 +53,9 @@ public class TestaAgenda {
 			String nome = sc.nextLine();
 			int pos = c.buscaContato(nome);
 			if(pos != 0)
-			System.out.println("A posição de " + nome + " é: " + pos);
+			System.out.println("\nA posição de " + nome + " é: " + pos);
 			else
-				System.out.println("O nome consultado não está na lista");
+				System.out.println("\nO nome consultado não está na lista");
 			break;
 			
 			case 4: System.out.println("Digite o nome do contato que deseja remover:"); 
