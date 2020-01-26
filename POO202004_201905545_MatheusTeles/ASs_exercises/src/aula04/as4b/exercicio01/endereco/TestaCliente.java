@@ -1,4 +1,4 @@
-package aula03.as4b.exercicio01.endereco;
+package aula04.as4b.exercicio01.endereco;
 
 import java.util.ArrayList;
 import java.util.List;

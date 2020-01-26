@@ -1,4 +1,4 @@
-package aula03.as4b.exercicio01.alunos;
+package aula04.as4b.exercicio01.alunos;
 
 public class Alunos {
 	@Override

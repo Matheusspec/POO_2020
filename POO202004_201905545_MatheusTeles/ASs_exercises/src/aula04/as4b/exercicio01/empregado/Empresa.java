@@ -1,4 +1,4 @@
-package aula03.as4b.exercicio01.empregado;
+package aula04.as4b.exercicio01.empregado;
 
 public class Empresa {
 	private String cpnj;

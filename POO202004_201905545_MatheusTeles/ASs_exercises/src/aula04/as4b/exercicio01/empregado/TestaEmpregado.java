@@ -1,4 +1,4 @@
-package aula03.as4b.exercicio01.empregado;
+package aula04.as4b.exercicio01.empregado;
 
 import java.util.ArrayList;
 import java.util.List;

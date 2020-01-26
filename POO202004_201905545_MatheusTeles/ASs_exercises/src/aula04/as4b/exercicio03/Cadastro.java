@@ -1,4 +1,4 @@
-package aula03.as4b.exercicio03;
+package aula04.as4b.exercicio03;
 
 import java.text.DecimalFormat;
 

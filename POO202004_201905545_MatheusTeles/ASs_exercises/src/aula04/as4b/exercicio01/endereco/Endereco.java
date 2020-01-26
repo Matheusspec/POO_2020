@@ -1,5 +1,5 @@
 
-package aula03.as4b.exercicio01.endereco;
+package aula04.as4b.exercicio01.endereco;
 
 public class Endereco {
 	private String rua;
