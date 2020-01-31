@@ -9,7 +9,7 @@ public class Empregado {
 	public Empregado(String tituloDoProjeto, String codigo, String nome, int idade) {
 		super(tituloDoProjeto);
 		this.codigo = codigo;
-		this.nome = nome;
+		this.nome = nome; 
 		this.idade = idade;
 	}
 

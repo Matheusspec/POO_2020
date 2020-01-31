@@ -2,7 +2,7 @@ package aula09.as7b.exercicio01_2;
 
 public class Veiculo{
 
-	private int placa;
+	private int placa1;
 	private Empregado responsavel;
 	
 	public Veiculo(String tituloDoProjeto, int placa, Empregado responsavel) {
@@ -34,11 +34,11 @@ public class Veiculo{
 	}
 
 	public int getPlaca() {
-		return placa;
+		return placa1;
 	}
 
 	public void setPlaca(int placa) {
-		this.placa = placa;
+		this.placa1 = placa;
 	}
 
 }
