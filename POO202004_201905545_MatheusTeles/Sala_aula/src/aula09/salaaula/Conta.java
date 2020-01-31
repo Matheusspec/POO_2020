@@ -1,6 +1,7 @@
 package aula09.salaaula;
 
 public abstract class Conta {
+	 
 
 	protected int numero;
 
