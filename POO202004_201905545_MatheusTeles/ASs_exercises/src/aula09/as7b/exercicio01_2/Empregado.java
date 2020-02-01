@@ -1,17 +1,18 @@
 package aula09.as7b.exercicio01_2;
 
-public class Empregado {
+public class Empregado implements Modelo{
 	
 	private String codigo;
 	private String nome;
 	private int idade;
 	
-	public Empregado(String tituloDoProjeto, String codigo, String nome, int idade) {
-		super(tituloDoProjeto);
+	public Empregado(String codigo, String nome, int idade) {
+
 		this.codigo = codigo;
 		this.nome = nome; 
 		this.idade = idade;
 	}
+
 
 	public String getCodigo() {
 		return codigo;
@@ -37,14 +38,15 @@ public class Empregado {
 		this.idade = idade;
 	}
 
-	@Override
+	//1.5
 	public void imprimir() {
 		System.out.println(toString());
 	}
-
+	
+	//1.5
 	public String toString() {
 		StringBuffer sc = new StringBuffer();
- 		sc.append("\nResponsável:\nTiúlo do projeto: " + this.getTitulo());
+ 		sc.append("\nResponsável: ");
  		sc.append("\nNome: " + this.getNome());
  		sc.append("\nCódigo: " + this.getCodigo());
  		sc.append("\nIdade: " + this.getIdade());

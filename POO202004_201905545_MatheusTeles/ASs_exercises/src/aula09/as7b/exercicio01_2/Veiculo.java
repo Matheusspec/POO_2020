@@ -1,11 +1,11 @@
 package aula09.as7b.exercicio01_2;
 
-public class Veiculo{
+public class Veiculo implements Modelo{
 
 	private int placa1;
 	private Empregado responsavel;
 	
-	public Veiculo(String tituloDoProjeto, int placa, Empregado responsavel) {
+	public Veiculo(int placa, Empregado responsavel) {
 		
 		this.responsavel = responsavel;
 	}
@@ -17,10 +17,11 @@ public class Veiculo{
 	public void setResponsavel(Empregado responsavel) {
 		this.responsavel = responsavel;
 	}
-
+	
+	//1.5
 	public String toString() {
  		StringBuffer sc = new StringBuffer();
- 		sc.append("\nTiúlo do projeto: " + this.getTitulo());
+ 		sc.append("Projeto: " + Titulo_do_projeto);
  		sc.append("\nPlaca: " + this.getPlaca());
  		sc.append("\nResponsável: " + this.getResponsavel().getNome() + ", " 
  		+ this.getResponsavel().getIdade() + " anos");
@@ -28,7 +29,7 @@ public class Veiculo{
  		return sc.toString();
 	}
 	
-	@Override
+	//1.5
 	public void imprimir() {
 		System.out.println(toString());
 	}
