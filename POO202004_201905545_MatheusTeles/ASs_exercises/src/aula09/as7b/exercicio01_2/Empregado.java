@@ -11,6 +11,7 @@ public class Empregado implements Modelo{
 		this.codigo = codigo;
 		this.nome = nome; 
 		this.idade = idade;
+		matheus gostoso
 	}
 
 
@@ -46,9 +47,9 @@ public class Empregado implements Modelo{
 	//1.5
 	public String toString() {
 		StringBuffer sc = new StringBuffer();
- 		sc.append("\nResponsável: ");
+ 		sc.append("\nResponsï¿½vel: ");
  		sc.append("\nNome: " + this.getNome());
- 		sc.append("\nCódigo: " + this.getCodigo());
+ 		sc.append("\nCï¿½digo: " + this.getCodigo());
  		sc.append("\nIdade: " + this.getIdade());
  		return sc.toString();
 	}
