@@ -1,4 +1,4 @@
-package aula10.as8b.exercicio01;
+package aula10.as8b.exercicio03;
 
 // Exercicio 3 
 public class Veteninario {	

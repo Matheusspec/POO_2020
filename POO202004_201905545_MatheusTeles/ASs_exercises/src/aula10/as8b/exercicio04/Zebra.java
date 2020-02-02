@@ -1,4 +1,4 @@
-package aula10.as8b.exercicio01;
+package aula10.as8b.exercicio04;
 
 public class Zebra extends Animal {
 

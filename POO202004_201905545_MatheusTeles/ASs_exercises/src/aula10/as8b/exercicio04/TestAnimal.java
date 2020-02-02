@@ -1,35 +1,11 @@
-package aula10.as8b.exercicio01;
+package aula10.as8b.exercicio04;
 
 public class TestAnimal {
 	public static void main(String[] args) {
 
-		// Exercicio 2
 		Animal cavalo = new Cavalo("Safira", 12);
 
-		Animal cachorro = new Cachorro("Malu", 8);
-
 		Animal preguica = new Preguica("Pp", 10);
-
-		cavalo.emitirSom();
-		cachorro.emitirSom();
-		preguica.emitirSom();
-		System.out.println("\n----------------------- ");
-
-		// Exercicio 3
-
-		Veteninario vet = new Veteninario();
-
-		vet.examinar(preguica);
-
-		vet.examinar(cachorro);
-
-		vet.examinar(cavalo);
-
-		System.out.println("\n----------------------- ");
-
-		// Exercicio 4
-
-		System.out.println("\nZoológico:\n");
 
 		Animal cachorroSelvagem = new Cachorro("Malu", 8);
 
@@ -60,6 +36,7 @@ public class TestAnimal {
 		zoo.jaula[8] = macaco;
 		zoo.jaula[9] = preguica;
 
+		System.out.println("\nZoológico:\n");
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Passando pela jaula " + (i + 1));
 			if (zoo.jaula[i] instanceof Animal) {
