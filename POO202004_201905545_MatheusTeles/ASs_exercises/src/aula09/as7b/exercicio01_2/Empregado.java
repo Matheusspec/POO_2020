@@ -11,7 +11,6 @@ public class Empregado implements Modelo{
 		this.codigo = codigo;
 		this.nome = nome; 
 		this.idade = idade;
-		matheus gostoso
 	}
 
 

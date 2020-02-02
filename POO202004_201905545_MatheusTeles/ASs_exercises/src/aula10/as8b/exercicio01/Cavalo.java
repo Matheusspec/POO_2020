@@ -9,7 +9,7 @@ public class Cavalo extends Animal {
 	}
 
 	public void emitirSom() {
-		System.out.println("Emitindo som do cavalo");
+		System.out.println("Emitindo som do cavalo\n");
 
 	}
 
