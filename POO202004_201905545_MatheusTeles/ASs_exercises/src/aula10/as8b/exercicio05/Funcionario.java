@@ -14,6 +14,7 @@ public abstract class Funcionario {
 		this.nome = nome;
 		this.codigo = codigo;
 	}
+	
 
 	public String getNome() {
 		return nome;
