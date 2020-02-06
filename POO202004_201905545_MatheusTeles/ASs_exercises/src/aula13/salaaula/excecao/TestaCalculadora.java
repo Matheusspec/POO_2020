@@ -17,6 +17,5 @@ public class TestaCalculadora {
 		int[] vet = {1,2,3,4,43,4};
 		
 		System.out.println("Soma do vetor: " + app.somar(vet));
-		 matheus teles ribeiro da silva pinto 
 	}
 }
