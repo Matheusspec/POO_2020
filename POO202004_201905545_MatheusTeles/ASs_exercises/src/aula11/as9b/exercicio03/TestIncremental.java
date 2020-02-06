@@ -6,5 +6,11 @@ public class TestIncremental {
 			Incremental inc = new Incremental();
 			System.out.println(inc);
 		}
+		System.out.println("\n");
+		
+		for (int i = 0; i < 5; i++) {
+			IncrementalSingleton inc = IncrementalSingleton.getInstancia();
+			System.out.println(inc);
+		}
 	}
 }

@@ -1,12 +1,10 @@
 package aula12.salaaula.adpter;
 
-public class Tomada2pinos implements Tomada{
-
-	@Override
-	public void ligarTomada2pinos() {
-		System.out.println("Ligado na tomada de dois pinos");
-	}
-
+public class Tomada2pinos {
+	
+	 public void ligarNaTomadaDeDoisPinos() {
+	        System.out.println("Ligado na Tomada de Dois Pinos");
+	    }
 
 
 }
