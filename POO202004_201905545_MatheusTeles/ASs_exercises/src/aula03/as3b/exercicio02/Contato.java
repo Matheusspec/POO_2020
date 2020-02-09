@@ -7,15 +7,20 @@ public class Contato {
 	private int posicao;
 	
 	public Contato() {}
-
+	
+	public Contato(String nome,int idade, float altura) {
+		setAltura(altura);
+		setIdade(idade);
+		setNome(nome);
+	}
 
 	public String getNome() {
-		return nome;
+		return nome; 
 	}
 	
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
+	}  
 	
 	public int getIdade() {
 		return idade;
@@ -36,9 +41,9 @@ public class Contato {
 	public String toString() {
 		StringBuffer sb = new StringBuffer();
 		
-		sb.append("\nNome do contato " + this.getPosicao() + ": "  + this.getNome());
-		sb.append("\nIdade do contato: " + this.getIdade());
-		sb.append("\nAltura do contato: " + this.getAltura() + "\n");
+		sb.append(this.getNome() + "\n");
+		sb.append(this.getIdade() + "\n");
+		sb.append(this.getAltura());
 		return sb.toString();
 		
 	}

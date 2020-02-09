@@ -9,10 +9,10 @@ public class TestAnimal {
 
 		Animal preguica = new Preguica("Pp", 10);
 
-		cavalo.emitirSom();
+		cavalo.emitirSom(); 
 		cachorro.emitirSom();
 		preguica.emitirSom();
-
+ 
 	}
 
 }

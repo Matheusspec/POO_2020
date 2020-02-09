@@ -1,10 +1,10 @@
 package aula10.as8b.exercicio05;
 
-public abstract class Funcionario {
+public class Funcionario {
 	private String nome;
 	private String codigo;
 	// EX 08
-	protected double Gerente = 1500;
+	protected double Gerente = 1500; 
 	protected double Supervisor = 600;
 	protected double Vendedor = 250;
 	// EX 06
@@ -14,6 +14,8 @@ public abstract class Funcionario {
 		this.nome = nome;
 		this.codigo = codigo;
 	}
+	
+	public Funcionario() {}
 
 	public String getNome() {
 		return nome;
@@ -31,9 +33,27 @@ public abstract class Funcionario {
 		this.codigo = codigo;
 	}
 	// EX 06
-	public abstract double rendaTotal();
+	public double rendaTotal() {
+		return 0;
+	};
 	
-	public abstract String toString();
+	public  String toString() {
+		return null;
+	};
 	
+	public double getgerente()
+	{
+		return this.Gerente;
+	}
+	
+	public double getvendedor()
+	{
+		return this.Vendedor;
+	}
+	
+	public double getsupervisor()
+	{
+		return this.Supervisor;
+	}
 	
 }

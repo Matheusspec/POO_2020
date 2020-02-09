@@ -18,7 +18,7 @@ public class Vet {
 						content[j] = content[j+1];
 						content[j+1] = aux;
 					}
-				}
+				}  
 			}
 		}
 		

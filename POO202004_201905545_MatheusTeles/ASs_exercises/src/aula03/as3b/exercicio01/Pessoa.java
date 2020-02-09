@@ -10,8 +10,10 @@ public class Pessoa {
 	private double altura;
 	private int idade;
 	
+	public Pessoa() {}
+	
 	public String getNome() {
-		return this.nome;
+		return this.nome;  
 	}
 	
 	public void setNome(String nome) {

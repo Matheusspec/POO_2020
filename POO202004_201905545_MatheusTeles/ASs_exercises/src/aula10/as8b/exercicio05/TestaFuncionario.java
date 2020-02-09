@@ -7,7 +7,7 @@ public class TestaFuncionario {
 	public static void main(String[] args) {
 		DecimalFormat dc = new DecimalFormat("#,###.00");
 		Object[] emp = new Object[10];
-		// EX 7
+	 	// EX 7
 		emp[0] = new FuncionarioEmedio("José", "4433-22");
 		emp[1] = new FuncionarioEmedio("Nando", "4433-12");
 		emp[2] = new FuncionarioEmedio("Paulo", "4433-32");
@@ -46,7 +46,8 @@ public class TestaFuncionario {
 		double custo2 = 0;
 		for (Funcionario a : fm)
 			custo2 += a.rendaTotal();
-		System.out.println("\nO custo para a empresa é: " + dc.format(custo2) + "\n");
+		System.out.println("\nO custo para a empresa é: " + dc.format(custo2)
+		+ "\n");
 		
 		for (Funcionario a : fm)
 			System.out.println(a.toString());

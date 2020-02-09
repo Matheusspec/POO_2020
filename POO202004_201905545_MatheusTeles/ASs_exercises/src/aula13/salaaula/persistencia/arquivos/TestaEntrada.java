@@ -7,19 +7,20 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class TestaEntrada {
-	public static void main(String[] args) throws IOException {
 
-		InputStream is = new FileInputStream("arq.txt");
+	public static void main(String[] args) throws IOException{
+		InputStream is = new FileInputStream("arquivo.txt");
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader bf = new BufferedReader(isr);
-
+		
 		String s = bf.readLine();
-
-		while (s != null) {
+		
+		while(s != null) {
 			System.out.println(s);
 			s = bf.readLine();
 		}
+		
 		bf.close();
-
 	}
+
 }

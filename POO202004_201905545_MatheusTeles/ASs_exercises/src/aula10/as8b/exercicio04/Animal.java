@@ -6,14 +6,16 @@ public abstract class Animal {
 		this.nome = nome;
 		this.idade = idade;
 	}
-
+	
+	Animal(){}
+	
 	private int idade;
 	
-	public abstract void emitirSom();
+	public abstract String emitirSom();
 	
-	public abstract void mover();
+	public abstract String mover();
 	
-	public void correr() {}
+	public String correr() {return "não corre";}
 	
 	public String getNome() {
 		return nome;

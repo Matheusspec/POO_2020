@@ -8,18 +8,21 @@ public class Cavalo extends Animal {
 
 	}
 
-	public void emitirSom() {
-		System.out.println("Emitindo som do cavalo");
+     Cavalo(){}
+	
+	@Override
+	public String emitirSom() {
+		return "Emitindo som do Cavalo";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Cavalo correndo!\n");
+	public String mover() {
+		return "Cavalo correndo!";
 
 	}
 	
-	public void correr() {
-		mover();
+	public String correr() {
+		return mover();
 	}
 }

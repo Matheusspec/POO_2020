@@ -5,17 +5,19 @@ public class Cobra extends Animal {
 	public Cobra(String nome, int idade) {
 		super(nome, idade);
 		// TODO Auto-generated constructor stub
+	} 
+	
+	public Cobra(){}
+
+	@Override
+	public String emitirSom() {
+		return "Emitindo som da cobra";
+ 
 	}
 
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som da cobra\n");
-
-	}
-
-	@Override
-	public void mover() {
-		System.out.println("Cobra rastejando!\n");
+	public String mover() {
+		return "Cobra rastejando!";
 
 	}
 

@@ -2,20 +2,23 @@ package aula10.as8b.exercicio01;
 
 public abstract class Animal {
 	private String nome;
+	
 	public Animal(String nome, int idade) {
 		this.nome = nome;
 		this.idade = idade;
-	}
+	}   
+	public Animal() {};
 
 	private int idade;
 	
-	public abstract void emitirSom();
+	public abstract String emitirSom();
 	
-	public abstract void mover();
+	public abstract String mover();
 	
-	public void correr() {}
+	public String correr() {
+		return null;}
 	
-	public String getNome() {
+	public String getNome() { 
 		return nome;
 	}
 
@@ -23,7 +26,7 @@ public abstract class Animal {
 		this.nome = nome;
 	}
 
-	public int getIdade() {
+	public int getIdade() { 
 		return idade;
 	}
 

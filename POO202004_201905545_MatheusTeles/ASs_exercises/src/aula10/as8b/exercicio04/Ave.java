@@ -8,14 +8,14 @@ public class Ave extends Animal {
 	}
 
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som da Ave\n");
+	public String emitirSom() {
+		return "Emitindo som da Ave";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Ave voando!\n");
+	public String mover() {
+		return "Ave voando!";
 
 	}
 

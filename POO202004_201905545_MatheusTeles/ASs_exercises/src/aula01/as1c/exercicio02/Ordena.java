@@ -7,18 +7,18 @@ public class Ordena {
 		
 		Numeros num = new Numeros();
 		
-		System.out.println("Insira o 1° número :");
+		System.out.println("Insira o 1ï¿½ nï¿½mero :");
 		num.x = sc.nextInt();
 		
-		System.out.println("Insira o 2° número :");
+		System.out.println("Insira o 2ï¿½ nï¿½mero :");
 		num.y = sc.nextInt();
 		
-		System.out.println("Insira o 3° número :");
+		System.out.println("Insira o 3ï¿½ nï¿½mero :");
 		num.z = sc.nextInt();
 	
 		if(num.x > num.y) {
 			int aux = num.x ;
-			num.x = num.y;
+			num.x = num.y;  
 			num.y = aux;
 			}
 		if(num.x > num.z) {

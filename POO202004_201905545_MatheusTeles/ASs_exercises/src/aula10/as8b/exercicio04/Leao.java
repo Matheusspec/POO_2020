@@ -7,20 +7,22 @@ public class Leao extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	public Leao() {}
+ 
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som do Leao");
+	public String emitirSom() {
+		return "Emitindo som do Leão";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Leão correndo!\n");
+	public String mover() {
+		return "Leão correndo!";
 
 	}
-	
-	public void correr() {
-		mover();
+
+	public String correr() {
+		return mover();
 	}
 
 }

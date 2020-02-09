@@ -7,20 +7,21 @@ public class Macaco extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som do macaco");
+	public String emitirSom() {
+		return "Emitindo som do macaco";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Macaco correndo!\n");
+	public String mover() {
+		return "macaco correndo!";
 
 	}
 	
-	public void correr() {
-		mover();
-	}
+	public String correr() {
+		return mover();
+	}	
 
 }

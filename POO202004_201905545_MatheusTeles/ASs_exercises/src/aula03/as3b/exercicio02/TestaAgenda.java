@@ -22,15 +22,15 @@ public class TestaAgenda {
 			
 			System.out.println("Altura do contato:");
 			cont[i].setAltura(sc.nextFloat());
-			
+			    
 			cont[i].setPosicao(i);
 			
 			c.adicionaContato(cont[i]);
 			sc.nextLine();
 		}
 		
-		System.out.println("\nOpções:\n(1)Imprimir Agenda\n"
-				+ "(2)Consultar informações da Pessoa\n(3)Quero saber a posição do contato\n(4)Remover pessoa\n(5)Sair");
+		System.out.println("\nOpÃ§Ãµes:\n(1)Imprimir Agenda\n"
+				+ "(2)Consultar informaÃ§Ãµes da Pessoa\n(3)Quero saber a posiÃ§Ã£o do contato\n(4)Remover pessoa\n(5)Sair");
 				int option = sc.nextInt();
 				
 		do {
@@ -41,10 +41,10 @@ public class TestaAgenda {
 			case 1:	c.imprimeAgenda(c.getListaContatos());
 			break;
 			
-			case 2: System.out.println("Qual a posição do contato que deseja consultar?");
+			case 2: System.out.println("Qual a posiï¿½ï¿½o do contato que deseja consultar?");
 			int posicao = sc.nextInt();
 			if(posicao >=i || posicao <= 0)
-				System.out.println("\nNão existe essa posição");
+				System.out.println("\nNÃ£o existe essa posiï¿½ï¿½o");
 			else
 				c.imprimeContato(cont[posicao].getPosicao());
 			break;
@@ -53,9 +53,9 @@ public class TestaAgenda {
 			String nome = sc.nextLine();
 			int pos = c.buscaContato(nome);
 			if(pos != 0)
-			System.out.println("\nA posição de " + nome + " é: " + pos);
+			System.out.println("\nA posiÃ§Ã£o de " + nome + " : " + pos);
 			else
-				System.out.println("\nO nome consultado não está na lista");
+				System.out.println("\nO nome consultado nï¿½o estï¿½ na lista");
 			break;
 			
 			case 4: System.out.println("Digite o nome do contato que deseja remover:"); 
@@ -63,8 +63,8 @@ public class TestaAgenda {
 			break;
 			case 5: break;
 			}
-			System.out.println("\nOpções:\n(1)Imprimir Agenda\n"
-					+ "(2)Consultar informações da Pessoa\n(3)Quero saber a posição do contato\n(4)Remover pessoa\n(5)Sair");
+			System.out.println("\nOpï¿½ï¿½es:\n(1)Imprimir Agenda\n"
+					+ "(2)Consultar informaï¿½ï¿½es da Pessoa\n(3)Quero saber a posiï¿½ï¿½o do contato\n(4)Remover pessoa\n(5)Sair");
 					option = sc.nextInt();
 					sc.nextLine();
 		

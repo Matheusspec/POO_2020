@@ -13,7 +13,7 @@ public class FuncionarioSuperior extends Funcionario  implements Const {
 
 	public String getEscola() {
 		return escola;
-	}
+	} 
 
 	public void setEscola(String escola) {
 		this.escola = escola;

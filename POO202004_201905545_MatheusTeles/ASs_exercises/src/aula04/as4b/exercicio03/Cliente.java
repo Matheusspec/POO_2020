@@ -9,9 +9,9 @@ public class Cliente extends Funcionario{
 		if(status.equals("A"))
 			setStatus("I");
 		else
-			System.out.println("O cliente já está desativado");
+			System.out.println("O cliente jï¿½ estï¿½ desativado");
 	}
-	
+	 
 	public String toString() {
 		StringBuffer ss = new StringBuffer();
 		ss.append(this.getNome() + " - Tel: " + this.getTelefone() + 

@@ -11,8 +11,8 @@ public class Digs {
 		
 		System.out.println("Nome :");
 		Amigo.nome = sc.nextLine();
-		System.out.println("Número de Telefone :");
-		Amigo.tel = sc.nextLine();
+		System.out.println("Nï¿½mero de Telefone :");
+ 		Amigo.tel = sc.nextLine();
 		
 		char[] nomeC= Amigo.nome.toCharArray();
 		char[] num = Amigo.tel.toCharArray();
@@ -22,16 +22,16 @@ public class Digs {
 		
 		
 		if(resultTel == true && resultNome == true) 
-			System.out.println("Nome : ok" + "\n" + "Número : ok");
+			System.out.println("Nome : ok" + "\n" + "Nï¿½mero : ok");
 		
 		if(resultTel == false && resultNome == true) 
-			System.out.println("Nome : ok" + "\n" + "Número : incorreto");
+			System.out.println("Nome : ok" + "\n" + "Nï¿½mero : incorreto");
 		
 		if(resultTel == true && resultNome == false) 
-			System.out.println("Nome : incorreto" + "\n" + "Número : ok");
+			System.out.println("Nome : incorreto" + "\n" + "Nï¿½mero : ok");
 		
 		if(resultTel == false && resultNome == false) 
-		    System.out.println("Nome : incorreto" + "\n" + "Número : incorreto");
+		    System.out.println("Nome : incorreto" + "\n" + "Nï¿½mero : incorreto");
 		
 		
 		

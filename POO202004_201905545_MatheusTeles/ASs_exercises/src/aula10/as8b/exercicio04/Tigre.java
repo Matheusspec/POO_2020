@@ -7,20 +7,20 @@ public class Tigre extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som do Tigre");
-
-	}
 
 	@Override
-	public void mover() {
-		System.out.println("Tigre Correndo!\n");
+	public String emitirSom() {
+		return "Emitindo som do Tigre";
 
 	}
-	
-	public void correr() {
-		mover();
+
+	@Override
+	public String mover() {
+		return "Tigre correndo!";
+
 	}
 
+	public String correr() {
+		return mover();
+	}
 }

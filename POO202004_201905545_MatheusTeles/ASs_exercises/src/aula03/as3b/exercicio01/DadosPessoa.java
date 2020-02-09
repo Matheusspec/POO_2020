@@ -22,7 +22,7 @@ public class DadosPessoa {
 		
 		System.out.println("Qual a data de nascimento?\nDia:");
 		date[0] = sc.nextInt();
-		System.out.println("Mês: ");
+		System.out.println("Mï¿½s: ");
 		date[1] = sc.nextInt();
 		System.out.println("Ano: ");
 		date[2] = sc.nextInt();
@@ -32,7 +32,7 @@ public class DadosPessoa {
 		System.out.println("Qual a sua altura?");
 		p.setAltura(sc.nextDouble());
 		
-		idade = p.idade(date);
+		idade = p.idade(date);  
 		 
 		p.setIdade(idade);
 	

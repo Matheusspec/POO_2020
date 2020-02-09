@@ -6,20 +6,23 @@ public class Gurila extends Animal {
 		super(nome, idade);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	public Gurila(){}
+	
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som da gurila");
+	public String emitirSom() {
+		return "Emitindo som do Gurila";
+
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Gurila Correndo!\n");
+	public String mover() {
+		return "Gurila correndo";
 
 	}
 	
-	public void correr() {
-		mover();
+	public String correr() {
+		return mover();
 	}
 
 }

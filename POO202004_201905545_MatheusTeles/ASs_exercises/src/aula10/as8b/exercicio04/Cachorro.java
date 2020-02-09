@@ -7,20 +7,22 @@ public class Cachorro extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	Cachorro(){}
+	
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som do cachorro");
+	public String emitirSom() {
+		return "Emitindo som do Cachorro";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Cachorro correndo!\n");
+	public String mover() {
+		return "Cachorro correndo!";
 
 	}
 	
-	public void correr() {
-		mover();
+	public String correr() {
+		return mover();
 	}
 
 }

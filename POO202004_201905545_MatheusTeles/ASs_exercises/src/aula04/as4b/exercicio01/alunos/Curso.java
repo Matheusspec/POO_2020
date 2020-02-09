@@ -11,8 +11,6 @@ public class Curso {
 		this.setDepartamento(departamento);
 	}
 
-	
-
 	public Curso(String nome2, String sigla2) {
 		this.setNome(nome2);
 		this.setSigla(sigla2);

@@ -4,7 +4,7 @@ public class PortaAberta implements EstadosPorta {
 
 	@Override
 	public void abrir(Porta p) {
-		System.out.println("Porta Aberta");
+		System.out.println("A porta já está aberta");
 
 	}
 

@@ -10,7 +10,7 @@ public class Musica {
 		this.nome = nome;
 		this.ano = ano;
 		this.tipo = tipo;
-		this.comp = comp;
+		this.comp = comp; 
 	}
 
 	public String getNome() {
@@ -48,7 +48,7 @@ public class Musica {
 	
 	public String toString() {
 		StringBuffer sb = new StringBuffer();
-		sb.append("\nImprimindo dados da músia " + this.getNome() );
+		sb.append("\nImprimindo dados da mï¿½sia " + this.getNome() );
 		sb.append("\nAno: " + this.getAno());
 		sb.append("\nTipo: " + this.getTipo());
 		sb.append("\nCompositor: " + this.getComp().getNome());

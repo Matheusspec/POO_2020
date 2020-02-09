@@ -12,7 +12,7 @@ public class Alunos {
 		return sb.toString();
 	}
 
-	private String nome;
+	private String nome; 
 	private int matricula;
 	private int ano;
 	private Curso curso;

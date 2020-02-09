@@ -10,11 +10,11 @@ public class Cadastro {
 		
 		f1.setSalario(2500);
 		f1.setHorario("09:00 - 18:00");
-		f1.setTelefone("9330-6945");
+		f1.setTelefone("9330-6945"); 
 		f1.aumento(10);
 		double recebimento = f1.receb(f1.getSalario());
-		System.out.print("Funcionário: " + "\nHorário: " + f1.getHorario());
-		System.out.println("\nSalário: " + f1.getSalario() + "\nTelefone: " + f1.getTelefone());
+		System.out.print("Funcionï¿½rio: " + "\nHorï¿½rio: " + f1.getHorario());
+		System.out.println("\nSalï¿½rio: " + f1.getSalario() + "\nTelefone: " + f1.getTelefone());
 		System.out.println("Recebimento anual: " + dc.format(recebimento));
 	
 		Gerente g1 = new Gerente();
@@ -27,12 +27,12 @@ public class Cadastro {
 		recebimento = g1.receb(g1.getSalario());
 		
 		System.out.print("\n\nGerente: " + "\nTipo: " + g1.getTipo());
-		System.out.println("\nSalário: " + g1.getSalario1() + "\nTelefone: " + g1.getTelefone());
-		System.out.println("Bonificação: " + g1.getBonificacao() + "\nRecebimento anual: " + dc.format(recebimento)+"\n");
+		System.out.println("\nSalï¿½rio: " + g1.getSalario1() + "\nTelefone: " + g1.getTelefone());
+		System.out.println("Bonificaï¿½ï¿½o: " + g1.getBonificacao() + "\nRecebimento anual: " + dc.format(recebimento)+"\n");
 		
 		Cliente c1 = new Cliente();
 		
-		c1.setNome("José");
+		c1.setNome("Josï¿½");
 		c1.setTelefone("3622-0436");
 		c1.setIdade(32);
 		c1.setCpf("891-9012-33393-01");

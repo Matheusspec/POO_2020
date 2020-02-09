@@ -10,7 +10,8 @@ public class TestaData {
 		}
 		catch(Exception e) {
 			System.out.println("Erro data incorreta"); 
-		}finally{
+		}
+		finally{
 			System.out.println("Execução obrigatória!");
 		}
 	}

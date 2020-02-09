@@ -6,17 +6,18 @@ public class Preguica extends Animal {
 		super(nome, idade);
 		
 	}
-
+	
+	public Preguica() {}
+	   
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som da preguiça\n");
+	public String emitirSom() {
+		return "Emitindo som da preguiça";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Preguiça subindo!\n");
-
+	public String mover() {
+		return "Preguiça se movendo!";
 	}
 
 }

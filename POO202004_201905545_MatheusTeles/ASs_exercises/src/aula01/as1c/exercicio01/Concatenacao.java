@@ -7,7 +7,7 @@ public class Concatenacao {
 		Scanner sc = new Scanner(System.in);
 		int numAlunos;
 		int j = 0;
-		System.out.println("Insira o número de alunos :");
+		System.out.println("Insira o nï¿½mero de alunos :");
 		numAlunos = sc.nextInt();
 	
 		int i = numAlunos;  
@@ -15,14 +15,14 @@ public class Concatenacao {
 		Aluno aluno[] = new Aluno[numAlunos];
 		
 		while(i>0) {
-			
+			  
 			aluno[j] = new Aluno();
  
 			sc.nextLine();
 			System.out.println("Insira o nome do Aluno " + (j + 1));
 			aluno[j].nome = sc.nextLine();
 			
-			System.out.println("Insira a mátricula do Aluno " + (j + 1));
+			System.out.println("Insira a mï¿½tricula do Aluno " + (j + 1));
 			aluno[j].matricula = sc.nextInt();
 			j++;	
 			i--;

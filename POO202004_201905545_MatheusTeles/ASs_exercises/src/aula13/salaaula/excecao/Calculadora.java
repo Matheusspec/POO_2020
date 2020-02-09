@@ -4,7 +4,7 @@ public class Calculadora {
 
 	public int dividir(int a, int b) throws ArithmeticException {
 
-		return a / b;
+		return a / b; 
 
 		/*
 		 * int result = 0; try { result = a/b; } catch(ArithmeticException e) {

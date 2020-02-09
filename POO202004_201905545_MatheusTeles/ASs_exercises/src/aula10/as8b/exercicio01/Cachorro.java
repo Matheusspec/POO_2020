@@ -6,21 +6,24 @@ public class Cachorro extends Animal {
 		super(nome, idade);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	public Cachorro(){}
+    
+	
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som do cachorro\n");
+	public String emitirSom() {
+		return "Emitindo som do cachorro";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Cachorro correndo!\n");
+	public String mover() {
+		return "Cachorro correndo!";
 
 	}
 	
-	public void correr() {
-		mover();
+	public String correr() {
+		return mover();
 	}
 
 }

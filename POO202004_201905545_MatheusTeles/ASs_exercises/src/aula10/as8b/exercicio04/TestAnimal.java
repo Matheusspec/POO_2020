@@ -9,7 +9,7 @@ public class TestAnimal {
 
 		Animal cachorroSelvagem = new Cachorro("Malu", 8);
 
-		Animal zebra = new Zebra("Jiu", 12);
+		Animal zebra = new Zebra("Jiu", 12); 
 
 		Animal gurila = new Gurila("Mal", 8);
 
@@ -24,7 +24,7 @@ public class TestAnimal {
 		Animal macaco = new Macaco("Jojo", 3);
 
 		Zoologico zoo = new Zoologico();
-
+ 
 		zoo.jaula[0] = cavalo;
 		zoo.jaula[1] = cachorroSelvagem;
 		zoo.jaula[2] = zebra;
@@ -40,8 +40,8 @@ public class TestAnimal {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Passando pela jaula " + (i + 1));
 			if (zoo.jaula[i] instanceof Animal) {
-				((Animal) zoo.jaula[i]).emitirSom();
-				((Animal) zoo.jaula[i]).correr();
+				System.out.println(((Animal) zoo.jaula[i]).emitirSom());
+				System.out.println(((Animal) zoo.jaula[i]).correr() + "\n");
 			}
 		}
 	}

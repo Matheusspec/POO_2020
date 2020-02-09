@@ -11,12 +11,12 @@ public class TestAnimal {
 		Animal preguica = new Preguica("Pp", 10);
 
 		Veteninario vet = new Veteninario();
+ 
+		System.out.println(vet.examinar(preguica) + "\n");
+			
+		System.out.println(vet.examinar(cachorro) + "\n");
 
-		vet.examinar(preguica);
-
-		vet.examinar(cachorro);
-
-		vet.examinar(cavalo);
+		System.out.println(vet.examinar(cavalo) );  
 
 	}
 

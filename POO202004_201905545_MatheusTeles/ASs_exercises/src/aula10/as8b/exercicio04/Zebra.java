@@ -7,20 +7,21 @@ public class Zebra extends Animal {
 		// TODO Auto-generated constructor stub
 	}
 
+	Zebra(){}
+	
 	@Override
-	public void emitirSom() {
-		System.out.println("Emitindo som da Zebra");
+	public String emitirSom() {
+		return "Emitindo som da Zebra";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Zebra correndo!\n");
+	public String mover() {
+		return "Zebra correndo!";
 
 	}
 	
-	public void correr() {
-		mover();
+	public String correr() {
+		return mover();
 	}
-
 }

@@ -7,11 +7,16 @@ public class PortaTest {
 		p.abrir();
 		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
 		p.abrir();
+		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
+		p.trancar();
+		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
+		p.destrancar();
+		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
 		p.fechar();
 		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
 		p.trancar();
 		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
-		p.abrir();
-		System.out.println(p.getEstadoAtual().getClass().getSimpleName());
+		
+		
 	}
 }

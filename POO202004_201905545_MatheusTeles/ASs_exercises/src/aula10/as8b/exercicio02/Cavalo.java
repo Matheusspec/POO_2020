@@ -6,20 +6,24 @@ public class Cavalo extends Animal {
 	public Cavalo(String nome, int idade) {
 		super(nome, idade);
 
-	}
-
-	public void emitirSom() {
-		System.out.println("Emitindo som do cavalo\n");
+	} 
+	
+	public Cavalo(){}
+	
+	
+	public String emitirSom() {
+		return "Emitindo som do cavalo";
 
 	}
 
 	@Override
-	public void mover() {
-		System.out.println("Cavalo correndo!\n");
+	public String mover() {
+		return "Cavalo correndo!";
 
 	}
 	
-	public void correr() {
-		mover();
+	public String correr() {
+		return mover();
 	}
+	
 }

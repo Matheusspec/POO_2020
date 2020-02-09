@@ -12,7 +12,7 @@ public class Compositor {
 	public Compositor(String nome, String nacionalidade) {
 		this.nome = nome;
 		this.nacionalidade = nacionalidade;
-	}
+	} 
 
 	public void setNome(String nome) {
 		this.nome = nome;

@@ -16,13 +16,13 @@ public class Empregado {
 		sp.append("\nEmpregado: " + this.getNome());
 		sp.append("\nMatricula: " + this.getMatricula());
 		sp.append("\nEmpresa :" + this.getEmpresa().getRazaoSocial() + " | CNPJ: " + this.getEmpresa().getCpnj());
-		sp.append("\nEndereço: " + this.getEmpresa().getEndereco().getRua() + " Número: " + this.getEmpresa().getEndereco().getNumero() + " ," + this.getEmpresa().getEndereco().getComplemento() + " ,cep: "
+		sp.append("\nEndereï¿½o: " + this.getEmpresa().getEndereco().getRua() + " Nï¿½mero: " + this.getEmpresa().getEndereco().getNumero() + " ," + this.getEmpresa().getEndereco().getComplemento() + " ,cep: "
 				+ this.getEmpresa().getEndereco().getCep() + " ," + this.getEmpresa().getEndereco().getBairro() + " ," + this.getEmpresa().getEndereco().getCidade() + " " + this.getEmpresa().getEndereco().getEstado() + "\n\n");
 		return sp.toString();
 	}
 
 	public String getNome() {
-		return nome;
+		return nome; 
 	}
 	public void setNome(String nome) {
 		this.nome = nome;

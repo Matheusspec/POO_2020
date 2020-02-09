@@ -4,23 +4,26 @@ public abstract class Animal {
 	private String nome;
 	public Animal(String nome, int idade) {
 		this.nome = nome;
-		this.idade = idade;
+		this.idade = idade; 
 	}
-
+ 
+	Animal(){}
+	
 	private int idade;
 	
-	public abstract void emitirSom();
+	public abstract String emitirSom();
 	
-	public abstract void mover();
+	public abstract String mover();
 	
-	public void correr() {}
+	public String correr() {
+		return null;}
 	
-	public String getNome() {
+	public String getNome() { 
 		return nome;
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nome = nome; 
 	}
 
 	public int getIdade() {

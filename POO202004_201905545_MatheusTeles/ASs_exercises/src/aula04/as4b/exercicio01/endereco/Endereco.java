@@ -17,7 +17,7 @@ public class Endereco {
 		this.cep = cep;
 		this.bairro = bairro;
 		this.cidade = cidade;
-		this.estado = estado;
+		this.estado = estado; 
 	}
 	
 
